@@ -1,0 +1,8 @@
+services:
+  config:
+    class: MasteringPHP7\DependencyInjection\Config
+  logger:
+    class: MasteringPHP7\DependencyInjection\Logger
+  app:
+    class: MasteringPHP7\DependencyInjection\App
+    autowire: true

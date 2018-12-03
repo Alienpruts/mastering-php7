@@ -1,0 +1,14 @@
+<phpunit>
+    <testsuite name="foggyline">
+        <directory>src/MasteringPHP7/PHPUnitDemo/*</directory>
+    </testsuite>
+    <filter>
+        <whitelist>
+            <directory>src/MasteringPHP7/PHPUnitDemo/</directory>
+            <exclude></exclude>
+        </whitelist>
+    </filter>
+    <logging>
+        <log type="coverage-html" target="log/report" lowUpperBound="50" highLowerBound="80"></log>
+    </logging>
+</phpunit>

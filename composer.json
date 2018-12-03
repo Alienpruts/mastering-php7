@@ -1,0 +1,31 @@
+{
+  "name": "vendor_name/package_name",
+  "description": "description_text",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "author's name",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "symfony/console": "v4.1.7",
+    "amnuts/opcache-gui": "v2.4.0",
+    "reactivex/rxphp": "2.0.7",
+    "react/event-loop": "v1.0.0",
+    "react/react": "v0.4.1",
+    "mongodb/mongodb": "1.4.2",
+    "symfony/dependency-injection": "v4.1.8",
+    "symfony/yaml": "v4.2.0",
+    "symfony/config": "v4.2.0",
+    "phpunit/phpunit": "7.4.4",
+    "behat/behat": "v3.5.0",
+    "phpspec/phpspec": "5.1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "MasteringPHP7\\": "src/MasteringPHP7/"
+    }
+  }
+}
